@@ -1,0 +1,105 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cliente.css">
+    <title>Cliente  /  Admision</title>
+<script>
+    function mensaje(){
+        alert("Grabado satisfactoriamente");
+    }
+    function salir(){
+        alert("Fin del registro");
+        window.close();
+    }
+</script>
+</head>
+<body>
+    <h1>Registro de clientes</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>Codigo:</td>
+                <td>
+                    <input type="text" style="width: 30%;" disabled value="C001">
+                </td>
+            </tr>
+            <tr>
+                <td>Razon Social:</td>
+                <td>
+                    <input style= "width: 100%;" type="text" name="txtRaz" placeholder="Ingrese nombre de Empresa">
+                </td>
+            </tr>
+            <tr>
+                <td>RUC:</td>
+                <td>
+                    <input style= "width: 50%;" type="text" name="txtRuc">
+                </td>
+            </tr>
+            <tr>
+                <td>Direccion:</td>
+                <td>
+                    <input style= "width: 100%;" type="text" name="txtDir" placeholder="Ingrese direccion y referencia">
+                </td>
+            </tr>
+            <tr>
+                <td>Distrito:</td>
+                <td>
+                    <select name="txtDis" id="">
+                        <option value="1">Villa el Salvador</option>
+                        <option value="2">Villa Maria del Triunfo</option>
+                        <option value="3">Lurin</option>
+                        <option value="4">San Juan de Miraflores</option>
+                        <option value="5">Surco</option>
+                        <option value="6">Miraflores</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Deuda:</td>
+                <td>
+                    <input type="number" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Fecha-Reg:</td>
+                <td>
+                    <input type="date" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td>
+                    <input type="password" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Observacion:</td>
+                <td>
+                    <textarea style="font-size: 15px;" name="" id="" cols="60" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Acta</td>
+                <td>
+                    <input type="file" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Correo</td>
+                <td>
+                    <input type="email" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <button onclick="mensaje();">GRABAR</button>
+                </td>
+                <td style="text-align: right;">
+                    <button onclick="salir();">CANCELAR</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

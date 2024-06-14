@@ -1,0 +1,35 @@
+h2{
+    border: solid black;
+    width: 40%;
+    margin: 0 auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+input{
+    background-color: bisque;
+    padding: 10px;
+    font-size: 15px;
+}
+button{
+    
+    background-color: rgb(255, 254, 196);
+    padding: 15px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 25px;
+    
+}
+h1{
+    background-color: aquamarine;
+    font-size: 35px;
+    color: white;
+}
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px; 
+}   
